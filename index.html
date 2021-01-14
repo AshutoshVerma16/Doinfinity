@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <h2 class="logo">ORG</h2>
+        <ul>
+          <li>About</li>
+          <li>Fruit</li>
+          <li>Service</li>
+          <li>Blog</li>
+        </ul>
+        <a href="#">SHOP NOW</a>
+        <img src="./img/menu.svg" alt="" />
+      </div>
+      <div class="main">
+        <div class="mainLeft">
+          <p id="GetVitamins">Get Vitamins</p>
+          <h1>
+            Organic Food<br />
+            Delivery
+          </h1>
+          <p>
+            The sky was cloudless and of a deep dark blue spectacle before us
+            was indeed.
+          </p>
+          <a href="#">Explore</a>
+        </div>
+        <div class="mainRight">
+          <img src="./img/image.svg" alt="display" />
+          <img id="plusWhite" src="./img//pluswhite.svg" alt="" />
+          <img id="plusWhiteTwo" src="./img//pluswhite.svg" alt="" />
+          <img id="cart" src="./img/cart.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="servicer">
+      <div class="servicerHeading">
+        <p id="OurFeatures">Our Features</p>
+        <h1>Healthy Organic Products <br />In Your Home</h1>
+        <p>
+          The sky was cloudless and of a deep dark blue spectacle before us was
+          indeed sublime.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="./img/serviceOne.svg" alt="" />
+          <h3>Fresh Organic</h3>
+          <p>
+            Power to raise and purify our thoughts<br />
+            like a strain of sacred music.
+          </p>
+          <a href="#">Explore</a>
+        </div>
+        <div class="card">
+          <img src="./img/serviceTwo.svg" alt="" />
+          <h3>Fast Delivery</h3>
+          <p>
+            Purify our thoughts like a strain of <br />sacred music, or a noble
+            picture.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+          <img src="./img/serviceThree.svg" alt="" />
+          <h3>Better Health</h3>
+          <p>Strain of sacred music, or a noble picture, or a passage.</p>
+          <a href="#">Get Started</a>
+        </div>
+      </div>
+    </div>
+    <div class="shopNow">
+      <div class="shopNowHeading">
+        <div class="shopNowHeadingLeft">
+          <p>Shop Now</p>
+          <h2>Explore Super Healthy Organic Food</h2>
+        </div>
+        <div class="shopNowHeadingRight">
+          <p>
+            The sky was cloudless and of a deep dark blue. The spectacle before
+            us was indeed sublime.
+          </p>
+        </div>
+      </div>
+      <div class="shopNowSearch">
+        <p>Fruits</p>
+        <img src="./img/Triangle.svg" alt="" />
+      </div>
+      <div class="shopNowItem">
+        <div class="shopNowItemLeft">
+          <div class="shopNowItemMenu">
+            <ul>
+              <li class="active" onclick="sort(`fruit`)" data="fruit">Fruit</li>
+              <div class="line"></div>
+
+              <li onclick="sort(`vegetables`)" data="vegetables">Vegetables</li>
+              <div class="line"></div>
+
+              <li onclick="sort(`rareOrgenic`)" data="rareOrgenic">
+                Rare Orgenic
+              </li>
+              <div class="line"></div>
+
+              <li onclick="sort(`oneSale`)" data="oneSale">On Sale</li>
+            </ul>
+          </div>
+        </div>
+        <div class="shopNowItemRight">
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img//shopItemOne.png" alt="one" />
+            <h4>Apricot</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img/itemTwo.png" alt="one" />
+            <h4>Apple</h4>
+            <p>$7.50</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img/itemThree.png" alt="one" />
+            <h4>Banana</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img/itemFour.png" alt="one" />
+            <h4>Lemon</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img/itemFive.png" alt="one" />
+            <h4>Avocado</h4>
+            <p>$3.45</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+
+          <div class="shopItemCard active" data="fruit">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Melon</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="vegetables">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="rareOrgenic">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="rareOrgenic">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="rareOrgenic">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="rareOrgenic">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="oneSale">
+            <img id="ItemPic" src="./img/itemSix.png" alt="one" />
+            <h4>Bringle</h4>
+            <p>$4.99</p>
+            <div>
+              <img id="add" src="./img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="shopItemCard" data="oneSale">
+            <img id="ItemPic" src="./img//shopItemOne.png" alt="one" />
+            <h4>Apricot</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+          <div class="shopItemCard" data="oneSale">
+            <img id="ItemPic" src="./img//shopItemOne.png" alt="one" />
+            <h4>Apricot</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+          <div class="shopItemCard" data="oneSale">
+            <img id="ItemPic" src="./img//shopItemOne.png" alt="one" />
+            <h4>Apricot</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+          <div class="shopItemCard" data="oneSale">
+            <img id="ItemPic" src="./img//shopItemOne.png" alt="one" />
+            <h4>Apricot</h4>
+            <p>$4.99</p>
+            <img id="add" src="./img/plus.svg" alt="plus" />
+          </div>
+        </div>
+      </div>
+      <div id="ExploreMorediv">
+        <a id="ExploreMore" href="#">Explore More</a>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="featuresFlex">
+        <div class="featuresFlexLeft">
+          <p>Service</p>
+          <h2>Super Fast & Easy Food Delivery</h2>
+
+          <div class="featuresFlexLeftcombo">
+            <img src="./img//shapeOne.svg" alt="" srcset="" />
+            <div>
+              <h3>Fresh Organic</h3>
+              <p>
+                Power to raise and purify our thoughts like a strain of sacred
+                music, or a noble picture, or a passage.
+              </p>
+            </div>
+          </div>
+          <div class="featuresCard">
+            <div class="featuresFlexLeftcombo">
+              <img src="./img/featureTow.png" alt="" srcset="" />
+              <div>
+                <h3>Food Delivery</h3>
+                <p>
+                  Like a strain of sacred music, or a noble picture, or a
+                  passage from the grander poets.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="featuresFlexLeftcombo">
+            <img src="./img//shapeOne.svg" alt="" srcset="" />
+            <div>
+              <h3>Fresh Organic</h3>
+              <p>
+                Power to raise and purify our thoughts like a strain of sacred
+                music, or a noble picture, or a passage.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="featuresFlexRight">
+          <img src="./img//FeaturePic.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="galary">
+      <div class="galaryTop">
+        <p id="galaryTitle">our photo</p>
+        <h3>Explore Gallery</h3>
+        <p id="galaryPara">
+          The sky was cloudless and of a deep dark blue spectacle before us was
+          indeed sublime.
+        </p>
+      </div>
+
+      <div class="galaryBottom">
+        <div class="galaryBottomRowOne">
+          <div>
+            <img src="./img/zero.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/one.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/two.png" alt="" />
+          </div>
+          <div><img src="./img/three.png" alt="" /></div>
+        </div>
+      </div>
+
+      <div class="galaryTop1">
+        <div class="galaryTopRowOne">
+          <div>
+            <img src="./img/five1.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/six1.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/seven1.png" alt="" />
+          </div>
+          <div><img src="./img/eight1.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="work">
+      <div class="workTop">
+        <p id="workTopHeading">Easy Shipping</p>
+        <h3>How We Work</h3>
+        <p id="workTopBody">
+          The sky was cloudless and of a deep dark blue spectacle before us was
+          indeed sublime.
+        </p>
+      </div>
+      <div class="workBottom">
+        <div class="cards">
+          <div class="card">
+            <img src="./img//workZero.png" alt="" />
+            <h2>Order</h2>
+            <p>
+              Power to raise and purify our thoughts like a strain of sacred
+              music.
+            </p>
+            <span>1</span>
+          </div>
+          <div class="card">
+            <img src="./img//workOne.png" alt="" />
+            <h2>Delivery</h2>
+            <p>
+              Power to raise and purify our thoughts like a strain of sacred
+              music.
+            </p>
+            <span>2</span>
+          </div>
+          <div class="card">
+            <img src="./img//workTwo.png" alt="" />
+            <h2>Enjoy</h2>
+            <p>
+              Power to raise and purify our thoughts like a strain of sacred
+              music.
+            </p>
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <div class="testimonialTop">
+        <p>People Say</p>
+        <h2>Testimonials</h2>
+        <p>
+          The sky was cloudless and of a deep dark blue spectacle before us was
+          indeed sublime.
+        </p>
+      </div>
+      <div class="testimonialBottom">
+        <div class="testimonialBottomLeft">
+          <div class="Testcard">
+            <div>
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+            </div>
+            <p>
+              "Even the all-powerful Pointing has no control about the blind
+              texts it is an almost unorthographic life One day however a small
+              line of blind text by the name of Lorem Ipsum decided to leave."
+            </p>
+            <div class="profile">
+              <img src="./img/Oval.png" alt="" />
+              <div>
+                <h2>Anaru Hakopa</h2>
+                <p>New York</p>
+              </div>
+            </div>
+          </div>
+          <div class="Testcard">
+            <div>
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+            </div>
+            <p>
+              "Powerful Pointing has no control about the blind texts it is an
+              almost unorthographic life One day however a small line."
+            </p>
+            <div class="profile">
+              <img src="./img/OvalOne.png" alt="" />
+              <div>
+                <h2>Bernarr Dominik</h2>
+                <p>San Francisco</p>
+              </div>
+            </div>
+          </div>
+          <div class="Testcard">
+            <div>
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+            </div>
+            <p>
+              "About the blind texts it is an almost unorthographic life One day
+              however a small line of blind text by the name."
+            </p>
+            <div class="profile">
+              <img src="./img/OvalThree.png" alt="" />
+              <div>
+                <h2>Donat Twerski</h2>
+                <p>Miami</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonialBottomRight">
+          <div class="Testcard">
+            <div>
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+            </div>
+            <p>
+              "The all-powerful Pointing has no control about the blind texts it
+              is an almost unorthographic life One day however a small line of
+              blind text by the name of Lorem Ipsum decided to leave for the far
+              World of Grammar. The Big Oxmox advised her not to do so, because
+              there were thousands of bad Commas, wild Question Marks and
+              devious Semikoli, but the Little Blind Text didn’t listen."
+            </p>
+            <div class="profile">
+              <img src="./img/OvalFour.png" alt="" />
+              <div>
+                <h2>Nout Golstein</h2>
+                <p>Los Angeles</p>
+              </div>
+            </div>
+          </div>
+          <div class="Testcard">
+            <div>
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+              <img src="./img//Star.png" alt="" />
+            </div>
+            <p>
+              "Has no control about the blind texts it is an almost
+              unorthographic life One day however a small line of blind text by
+              the name of Lorem Ipsum decided to leave for the far World of
+              Grammar. The Big Oxmox advised her not to do so, because there
+              were thousands of bad Commas, wild Question Marks and devious
+              Semikoli."
+            </p>
+            <div class="profile">
+              <img src="./img/OvalFive.png" alt="" />
+              <div>
+                <h2>Yogarasa Gandhi</h2>
+                <p>Chicago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="download">
+      <div class="downloadLeft">
+        <p>Download App</p>
+        <h2>Super Fast & Easy Food Delivery</h2>
+        <p id="downloadBody">
+          Music, or a noble picture, or a passage from the grander poets. Power
+          to raise and purify our thoughts like a strain of sacred music, or a
+          noble picture, or a passage from the grander poets.
+        </p>
+        <a href="#">Explore</a>
+      </div>
+      <div class="downloadRight">
+        <img src="./img//Downloadimage.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="blog">
+      <div class="blogTop">
+        <p>Explore Blog</p>
+        <h2>Latest Articles</h2>
+        <p>
+          The sky was cloudless and of a deep dark blue spectacle before us was
+          indeed sublime.
+        </p>
+      </div>
+      <div class="blogBottomUp">
+        <div class="blogBottom">
+          <div class="blogCard">
+            <img src="./img/BlogImage.svg" alt="" />
+            <p>Fruit</p>
+            <h3>7 tips of buying fruit and vegetables</h3>
+          </div>
+          <div class="blogCard">
+            <img src="./img/BlogImage.svg" alt="" />
+            <p>Berrys</p>
+            <h3>It’s really easy to buy fresh fruit now</h3>
+          </div>
+          <div class="blogCard">
+            <img src="./img/BlogImage.svg" alt="" />
+            <p>Vegetables</p>
+            <h3>I want to buy the tropical fruits of this island</h3>
+          </div>
+        </div>
+        <div>
+          <a href="#">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="started">
+      <div class="startedDIV">
+        <div class="statedleft">
+          <p>Get Started</p>
+          <h2>Super Fast & Easy Food Delivery</h2>
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="startedRight"><img src="./img/imageTwo.svg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerTop">
+        <h1>ORG</h1>
+        <ul>
+          <li>Menu</li>
+          <li>About</li>
+          <li>Food</li>
+          <li>Service</li>
+
+          <li>Blog</li>
+        </ul>
+        <ul>
+          <li>Organic</li>
+          <li>Berries</li>
+          <li>Vegetables</li>
+          <li>On Sale</li>
+        </ul>
+        <div class="social">
+          <h3>SOCIAL</h3>
+          <div>
+            <img src="./img//facebook.png" alt="" />
+            <img src="./img//facebook.png" alt="" />
+            <img src="./img//facebook.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="footerBelow">
+        <p>Copyright © 2020 Laaqiq. All Rights Reserved.</p>
+        <div>
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
